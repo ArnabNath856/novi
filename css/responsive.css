@@ -1,106 +1,140 @@
 @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-fluid {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-fluid {
         max-width: 1320px;
     }
+
     .banner-slider {
         height: calc(100vh - 90px);
     }
+
     .banner .banner-img {
         width: clamp(695px, 100%, 750px);
         height: 90%;
         transform: translateY(-20px);
     }
-    
+
     .banner .banner-img h1 {
         font-size: 135px;
         line-height: 250px;
     }
-    .header-body-area .navigation .nav-menu > li > a {
+
+    .header-body-area .navigation .nav-menu>li>a {
         font-size: 24px;
         padding: 24px 0;
     }
-    .card.car-box .card-img, .card.car-box .card-img img {
+
+    .card.car-box .card-img,
+    .card.car-box .card-img img {
         height: 240px;
     }
+
     .card.car-box .card-body h4 {
         font-size: 26px;
         line-height: 36px;
         margin: 0 0 5px;
     }
+
     .card.car-box .card-body h5 {
         font-size: 18px;
         line-height: 28px;
     }
+
     .card.car-box .card-body p {
         font-size: 17px;
         line-height: 27px;
     }
-    .client-area .container-fluid{
+
+    .client-area .container-fluid {
         max-width: 100%;
     }
+
     .footer-area {
         padding: 70px 0 30px;
     }
+
     .footer-logo {
         width: clamp(120px, 100%, 240px);
         margin: 0 auto 45px;
     }
+
     .footer-nav ul li a {
         font-size: 22px;
     }
+
     .footer-contact .contain-box a {
         font-size: 22px;
     }
+
     .card.car-box .card-footer .link {
         font-size: 16px;
     }
+
     .footer-contact .icon {
         width: 55px;
         height: 55px;
     }
+
     .footer-contact .icon img {
         height: 22px;
     }
+
     .footer-social ul li a {
         width: 55px;
         height: 55px;
         font-size: 24px;
     }
+
     .copyright {
         font-size: 20px;
         line-height: 30px;
     }
+
     .banner .banner-img img {
         height: 65%;
     }
+
     .footer-area::before {
         background-size: 160%;
         background-position: bottom;
     }
-    .header-body-area .navigation .nav-menu > li a::after {
+
+    .header-body-area .navigation .nav-menu>li a::after {
         transform: translate(40px, 30px);
     }
+
     .banner-slider {
         height: calc(100vh - 110px);
     }
+
     .banner-slider.inner-banner-slider {
         height: calc(100vh - 84px);
     }
+
     .banner-slider.inner-banner-slider .banner .banner-img img {
         height: 76%;
     }
+
     .banner-img.inner-banner-img h2 {
         font-size: 70px;
         line-height: 70px;
         transform: translateY(145px);
     }
+
     .banner .banner-img.inner-banner-img h1 {
         font-size: 100px;
         line-height: 115px;
     }
+
     .carSpecification2-carousel .owl-nav {
         transform: translate(-545px, -40px);
     }
+
     .carSpecification2-media .media-body h3 {
         font-size: 60px;
         line-height: 70px;
@@ -108,8 +142,7 @@
     }
 }
 
-@media(max-width: 1599.98px) {
-}
+@media(max-width: 1599.98px) {}
 
 @media(max-width: 1199.98px) {
     .footer-contact-area {
@@ -121,7 +154,7 @@
         z-index: 2;
     }
 
-    .header-body-area .navigation .nav-menu > li {
+    .header-body-area .navigation .nav-menu>li {
         margin-right: 35px;
         padding-right: 35px;
     }
@@ -137,184 +170,232 @@
         z-index: 1;
         transform: translateY(-180px);
     }
+
     .header-body-area .logo {
         width: clamp(120px, 100%, 200px);
-        transform: translate(45px,0px) !important;
+        transform: translate(45px, 0px) !important;
     }
 
-    .header-body-area .navigation .nav-menu > li:nth-child(3) {
+    .header-body-area .navigation .nav-menu>li:nth-child(3) {
         margin-left: 125px;
     }
 
     .header-body-area .logo {
         transform: translateY(0px);
     }
-    .header-body-area .navigation .nav-menu > li > a {
+
+    .header-body-area .navigation .nav-menu>li>a {
         font-size: 18px;
     }
+
     .p-80 {
         padding: 40px 0;
     }
+
     .section-logo {
         height: 140px;
     }
-    .section-logo .section-logo-bg{
+
+    .section-logo .section-logo-bg {
         height: 100%;
         object-fit: contain;
     }
+
     .section-logo .logo {
         width: clamp(100px, 100%, 320px);
     }
+
     .card.car-box .card-img {
         height: 210px;
     }
+
     .card.car-box {
         min-height: 465px;
     }
-    .clent-box{
-        height:85px;
+
+    .clent-box {
+        height: 85px;
     }
-    .clent-box img{
-        height:38px;
+
+    .clent-box img {
+        height: 38px;
     }
+
     .footer-logo {
         width: clamp(120px, 100%, 170px);
         margin: 0 auto 30px;
     }
+
     .footer-nav ul li a {
         font-size: 16px;
     }
+
     .footer-nav ul li {
         margin-right: 30px;
         padding-right: 30px;
     }
+
     .footer-nav {
         margin-bottom: 25px;
     }
+
     .footer-contact .icon {
         width: 40px;
         height: 40px;
     }
+
     .footer-contact .icon img {
         height: 16px;
     }
+
     .footer-contact-area {
         padding: 16px 0;
     }
+
     .footer-social {
         padding: 25px 0;
     }
+
     .footer-social ul li a {
         width: 42px;
         height: 42px;
         font-size: 18px;
     }
+
     .footer-area {
         padding: 50px 0 20px;
     }
+
     .banner .banner-img h1 {
         font-size: 80px;
         line-height: 90px;
         transform: translateY(-230px);
     }
+
     .banner-img.inner-banner-img h2 {
         font-size: 55px;
         line-height: 65px;
         transform: translateY(364px);
     }
+
     .banner-slider.inner-banner-slider {
         height: calc(100vh - 692px);
     }
+
     .banner .banner-img.inner-banner-img img {
         height: 35%;
     }
+
     .carSpecification-area {
         margin-top: 20px;
     }
+
     .carSpecification-body {
         padding: 20px 0;
     }
+
     .carSpecification-body .box h5 {
         font-size: 18px;
     }
+
     .carSpecification-body .box h6 {
         font-size: 15px;
     }
+
     .nav.nav-tabs .nav-link {
         font-size: 16px;
         margin-right: 12px;
         padding: 14px 28px;
     }
+
     .nav.nav-tabs .nav-link::after {
         width: 55px;
         height: 18px;
         transform: translateY(15px);
     }
+
     .carSpecification2-area .carSpecification2-content h4 {
         font-size: 22px;
         margin-bottom: 16px;
     }
+
     .header-area.fix .header-body-area .logo {
         width: clamp(120px, 100%, 170px);
-        transform: translate(25px,9px) !important;
+        transform: translate(25px, 9px) !important;
     }
+
     .carSpecification2-area .carSpecification2-content ul li {
         font-size: 16px;
         margin-bottom: 6px;
     }
+
     .carSpecification2-media {
         padding: 12px;
     }
+
     .carSpecification2-media .media-img {
         max-width: 420px;
         height: 295px;
     }
+
     .carSpecification2-media .media-body {
         padding-left: 40px;
         padding-top: 25px;
     }
+
     .carSpecification2-media .media-body h3 {
         font-size: 40px;
         line-height: 50px;
     }
-    .owl-nav .owl-prev, .owl-nav .owl-next {
+
+    .owl-nav .owl-prev,
+    .owl-nav .owl-next {
         width: 40px;
         height: 40px;
     }
+
     .carSpecification2-carousel .owl-nav {
         transform: translate(-368px, -40px);
     }
+
     .carSpecification3-listarea .carSpecification3Content h4 {
         font-size: 38px;
         line-height: 48px;
         padding-bottom: 16px;
         margin-bottom: 28px;
     }
+
     .carSpecification3-listarea .carSpecification3Content p {
         font-size: 16px;
         line-height: 26px;
     }
+
     .cena-body-area {
         border-radius: 15px;
         padding: 36px;
         font-size: 55px;
         line-height: 65px;
     }
+
     .suites-area h2 {
         font-size: 36px;
         line-height: 46px;
         margin: 0 0 25px;
     }
+
     .suites-card {
         padding: 10px;
     }
+
     .suites-card .card-body {
         padding-top: 16px;
     }
+
     .suites-card .card-body h4 {
         font-size: 22px;
         line-height: 32px;
     }
+
     .suites-card .card-body ul li {
         margin-bottom: 5px;
     }
@@ -339,29 +420,29 @@
     .header-body-area .logo {
         width: clamp(120px, 100%, 195px);
         position: relative;
-        transform: translate(0,0px) !important;
+        transform: translate(0, 0px) !important;
     }
 
     .navigation-portrait .nav-menus-wrapper {
         padding: 15px;
     }
 
-    .header-body-area .navigation .nav-menu > li:nth-child(3) {
+    .header-body-area .navigation .nav-menu>li:nth-child(3) {
         margin-left: 0;
     }
 
-/*.header-body-area .navigation .nav-menu > li.active > a, .header-body-area .navigation .nav-menu > li > a:hover {
+    /*.header-body-area .navigation .nav-menu > li.active > a, .header-body-area .navigation .nav-menu > li > a:hover {
     display: none;
 }
 .header-body-area .navigation .nav-menu > li a::after {
     display: none;
 }*/
-    .header-body-area .navigation .nav-menu > li:nth-child(2) {
+    .header-body-area .navigation .nav-menu>li:nth-child(2) {
         padding-right: 0;
         margin-right: 0;
     }
 
-    .header-body-area .navigation .nav-menu > li {
+    .header-body-area .navigation .nav-menu>li {
         margin-right: 0;
         padding-right: 0;
     }
@@ -369,7 +450,8 @@
     .p-80 {
         padding: 40px 0;
     }
-/*.section-logo .section-logo-bg {
+
+    /*.section-logo .section-logo-bg {
     top: 20px;
 }*/
     .section-logo {
@@ -388,7 +470,7 @@
         width: clamp(120px, 100%, 165px);
     }
 
-    .header-body-area .navigation .nav-menu > li > a {
+    .header-body-area .navigation .nav-menu>li>a {
         font-size: 16px;
         padding: 14px 14px;
     }
@@ -447,101 +529,127 @@
         width: 180px;
         height: 80px;
     }
+
     .clent-box img {
         height: 28px;
     }
+
     .clent-box {
         width: 160px;
         height: 80px;
     }
+
     .footer-contact .contain-box a {
         font-size: 16px;
     }
+
     .copyright {
         font-size: 16px;
         line-height: 26px;
     }
+
     .section-logo .logo {
         width: clamp(100px, 100%, 240px);
     }
+
     .banner-slider.inner-banner-slider {
         height: calc(100vh - 484px);
     }
+
     .banner-slider.inner-banner-slider::before {
         height: 86%;
     }
+
     .banner-slider.inner-banner-slider::after {
         height: 87%;
     }
+
     .banner .banner-img.inner-banner-img img {
         height: 46%;
     }
+
     .banner-img.inner-banner-img h2 {
         font-size: 60px;
         line-height: 60px;
         transform: translateY(295px);
         padding-left: 20px;
     }
+
     .banner .banner-img h1 {
         font-size: 90px;
         line-height: 90px;
         transform: translateY(-215px);
         padding-left: 18px;
     }
+
     .carSpecification-body {
         padding: 16px 0;
     }
+
     .carSpecification-body .box h5 {
         margin-bottom: 5px;
     }
+
     .carSpecification-body .box h6 {
         font-size: 12px;
     }
+
     .nav.nav-tabs .nav-link {
         font-size: 15px;
         margin-right: 10px;
         padding: 12px 24px;
     }
+
     .carSpecification2-area .carSpecification2-content h4 {
         font-size: 20px;
     }
+
     .carSpecification2-media .media-img {
         max-width: 320px;
         height: 250px;
     }
+
     .carSpecification2-media {
         padding: 8px;
     }
+
     .carSpecification2-media .media-body {
         padding-left: 16px;
         padding-top: 16px;
     }
+
     .carSpecification2-media .media-body h3 {
         font-size: 32px;
         line-height: 42px;
     }
+
     .carSpecification2-carousel .owl-nav {
         transform: translate(-258px, -40px);
     }
+
     .carSpecification3-listarea .carSpecification3Content h4 {
         font-size: 34px;
         line-height: 44px;
         padding-bottom: 12px;
         margin-bottom: 22px;
     }
+
     .cena-body-area {
         padding: 26px;
         font-size: 34px;
         line-height: 44px;
     }
+
     .header-area.fix .header-body-area .logo {
-        transform: translate(25px,0px) !important;
+        transform: translate(25px, 0px) !important;
     }
+
     .suites-area h2 {
         font-size: 32px;
         line-height: 42px;
         margin: 0 0 20px;
     }
+
     .suites-card {
         margin-bottom: 24px;
     }
@@ -567,107 +675,139 @@
     .banner .banner-img img {
         height: 34%;
     }
+
     .card.car-box .card-img {
         height: auto;
     }
+
     .card.car-box {
         min-height: inherit;
     }
+
     .section-logo {
         height: 90px;
     }
-    .footer-nav ul li a, .footer-contact .contain-box a, .copyright {
+
+    .footer-nav ul li a,
+    .footer-contact .contain-box a,
+    .copyright {
         font-size: 15px;
     }
+
     .footer-area {
         padding: 40px 0 20px;
     }
+
     .client-wrapper {
         padding-bottom: 16px;
     }
-    .clent-box{
+
+    .clent-box {
         margin-right: 16px;
     }
+
     .banner-slider.inner-banner-slider {
         height: calc(100vh - 258px);
     }
+
     .banner-slider.inner-banner-slider::before {
         height: 78%;
     }
+
     .banner-slider.inner-banner-slider::after {
         height: 80%;
     }
+
     .banner .banner-img.inner-banner-img img {
         height: 55%;
     }
+
     .banner .banner-img h1 {
         font-size: 80px;
         line-height: 65px;
         transform: translateY(-210px);
         padding-left: 75px;
     }
+
     .banner-img.inner-banner-img h2 {
         font-size: 55px;
         line-height: 55px;
         transform: translateY(195px);
         padding-left: 76px;
     }
+
     .carSpecification-body {
         padding: 16px 0;
     }
+
     .carSpecification-body .box h5 {
         font-size: 16px;
     }
+
     .carSpecification2-area .carSpecification2-content h4 {
         font-size: 25px;
         margin-bottom: 24px;
     }
+
     .carSpecification2-area .carSpecification2-content ul li {
         font-size: 18px;
         margin-bottom: 8px;
     }
+
     .carSpecification2-media .media-img {
         max-width: 100%;
         height: auto;
     }
+
     .carSpecification2-media .media-body h3 {
         font-size: 28px;
         line-height: 38px;
         text-align: center;
     }
+
     .carSpecification2-media {
         padding: 8px 8px 80px;
     }
+
     .carSpecification2-carousel .owl-nav {
         transform: translate(-200px, -20px);
     }
+
     .carSpecification3Img {
         margin-bottom: 25px;
     }
-    .carSpecification3-listarea .carSpecification3Content h4 br{
+
+    .carSpecification3-listarea .carSpecification3Content h4 br {
         display: none;
     }
+
     .carSpecification3-listarea .carSpecification3Content h4 {
         font-size: 32px;
         line-height: 42px;
         padding-bottom: 16px;
         margin-bottom: 26px;
     }
+
     .cena-area {
         padding: 0;
     }
+
     .cena-body-area {
         padding: 20px;
         font-size: 30px;
         line-height: 40px;
     }
-    .suites-card .card-img, .suites-card .card-img img {
+
+    .suites-card .card-img,
+    .suites-card .card-img img {
         height: auto;
     }
+
     .suites-card .card-body h4 {
         font-size: 26px;
         line-height: 36px;
     }
+
     .suites-card .card-body ul li {
         font-size: 16px;
         line-height: 26px;
@@ -675,62 +815,78 @@
 
 }
 
-@media (max-width: 639.98px) {    
+@media (max-width: 639.98px) {
     .banner .banner-img {
         height: 100%;
         padding-top: 90px;
     }
+
     .banner .banner-img img {
         height: 35%;
     }
+
     .banner .banner-img h1 {
         top: auto;
         font-size: 45px;
         line-height: 55px;
         transform: translateY(-105px);
     }
+
     .header-body-area .logo {
         width: clamp(120px, 100%, 170px);
     }
+
     .banner-slider {
         margin-bottom: 0;
         height: calc(100vh - 369px);
     }
+
     .section-logo .logo {
         width: clamp(100px, 100%, 225px);
     }
+
     .section-logo {
         height: 100px;
     }
+
     .footer-area {
         padding: 40px 0 30px;
     }
+
     .footer-nav ul li a {
         font-size: 14px;
     }
+
     .footer-nav ul li {
         margin-right: 15px;
         padding-right: 15px;
     }
+
     .footer-contact .contain-box a {
         font-size: 16px;
     }
-    .header-body-area .navigation .nav-menu > li a::after {
+
+    .header-body-area .navigation .nav-menu>li a::after {
         display: none;
     }
+
     .client-area {
         padding: 30px 0;
     }
+
     .clent-box {
         width: 160px;
         height: 70px;
     }
+
     .p-80 {
         padding: 25px 0;
     }
+
     .header-area.fix {
         padding: 5px 0;
     }
+
     .footer-logo {
         margin: 0 auto 20px;
         width: clamp(120px, 100%, 130px);
@@ -741,110 +897,140 @@
     .banner-slider {
         height: calc(100vh - 248px);
     }
+
     .banner .banner-img img {
         height: 38%;
     }
+
     .banner .banner-img h1 {
         top: auto;
         font-size: 40px;
         line-height: 50px;
         transform: translateY(-90px);
     }
+
     .section-logo .logo {
         width: clamp(100px, 100%, 200px);
     }
+
     .p-80 {
         padding: 20px 0;
     }
+
     .footer-area {
         padding: 24px 0 16px;
     }
+
     .footer-nav ul li {
         margin-right: 12px;
         padding-right: 12px;
     }
+
     .footer-logo {
         width: clamp(120px, 100%, 130px);
         margin: 0 auto 35px;
     }
+
     .client-area {
         padding: 30px 0 10px;
     }
+
     .copyright {
         font-size: 15px;
     }
-    .header-body-area .navigation .nav-menu > li > a {
+
+    .header-body-area .navigation .nav-menu>li>a {
         font-size: 15px;
         padding: 12px 12px;
     }
+
     .header-body-area .logo {
         width: clamp(120px, 100%, 180px);
     }
+
     .card.car-box .card-img img {
         height: auto;
     }
+
     .footer-logo {
         margin: 0 auto 16px;
     }
+
     .footer-nav {
         margin-bottom: 16px;
     }
+
     .footer-contact .icon {
         width: 30px;
         height: 30px;
     }
+
     .footer-contact .icon img {
         height: 12px;
     }
+
     .footer-social {
         padding: 16px 0;
     }
+
     .footer-social ul li a {
         width: 34px;
         height: 34px;
         font-size: 15px;
     }
 }
-@media (max-width: 390px){
+
+@media (max-width: 390px) {
     .banner-slider {
         height: calc(100vh - 260px);
     }
+
     .banner .banner-img img {
         height: 35%;
     }
+
     .section-logo .logo {
         width: clamp(100px, 100%, 180px);
     }
 }
+
 @media (max-width: 375px) {
     .banner-slider {
         height: calc(100vh - 278px);
     }
+
     .footer-nav ul li a {
         font-size: 12px;
     }
+
     .footer-contact .icon {
         width: 32px;
         height: 32px;
     }
+
     .footer-contact .icon img {
         height: 14px;
     }
+
     .footer-contact {
         padding-right: 12px;
         margin-right: 12px;
     }
+
     .footer-social ul li a {
         width: 32px;
         height: 32px;
         font-size: 14px;
     }
+
     .footer-nav {
         margin-bottom: 15px;
     }
+
     .banner .banner-img img {
         height: 30%;
     }
+
     .footer-contact .contain-box a {
         font-size: 14px;
     }
